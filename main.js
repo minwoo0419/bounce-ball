@@ -62,7 +62,7 @@ class Ball {
       
                 if (distance <= this.size + ball.size) {
                     ball.color = this.color = randomRGB();
-                    this.velX =- (ball.velX); //공끼리 부딫히면 색깔 뿐만 아니라 튕기게도 하기 위해 자체 
+                    this.velX =- (ball.velX); //공끼리 부딫히면 색깔 뿐만 아니라 튕기게도 하기 위해 자체 추가
                     this.velX =- (ball.velY);
                 }
             }
